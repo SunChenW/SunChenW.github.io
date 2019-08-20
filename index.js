@@ -11,6 +11,7 @@ $(function() {
 		$("#mf").contents().find("body").find("ul").eq(0).addClass("dropdown-menu").appendTo(".aside_doc")
 		$("#mf").contents().find("body").children().appendTo(".container_iframe")
 		$("#mf").contents().find("head link[rel='stylesheet']").appendTo("head")
+		$("table").addClass("table table-hover table-bordered")
 	}
 
 	$("iframe").load(function() {
